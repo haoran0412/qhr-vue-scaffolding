@@ -1,0 +1,132 @@
+body, html {
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+}
+
+/* 修复Vue刷新页面时"闪一下"的问题 */
+[v-cloak] {
+    display: none;
+}
+
+/* 调整主题样式 */
+#app,
+.wrapper,
+.el-container,
+.el-aside,
+.el-aside > .el-menu {
+    height: 100%;
+}
+
+header.el-header {
+    padding: 0;
+}
+
+.el-aside {
+    width: 200px !important;
+}
+
+.el-header > .el-menu--horizontal > .el-submenu {
+    float: right;
+}
+
+.el-main {
+    padding: 10px !important;
+    background-color: #f0f3f4;
+}
+
+/* 通用样式 */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.main-container {
+    min-height: 96%;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.main-header {
+    height: 50px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f0f3f4;
+}
+
+.text-info {
+    color: #909399;
+}
+/*.main-header .el-col {*/
+/*    padding: 12px 0;*/
+/*}*/
+
+table button {
+    padding: 0 !important;
+}
+
+table .el-badge__content {
+    top: -0.3em !important;
+}
+
+*, :after, :before {
+    border: 0 solid #000;
+}
+
+span.ql-picker-label {
+    outline: none;
+}
+
+.ql-snow .ql-picker.ql-size {
+    width: 60px !important;
+}
+
+.ql-picker-item {
+    height: 16px;
+}
+
+.ql-picker-item[data-value='10px']::before, .ql-picker-label[data-value='10px']::before {
+    content: '10px' !important;
+}
+
+.ql-picker-item[data-value='12px']::before, .ql-picker-label[data-value='12px']::before {
+    content: '12px' !important;
+}
+
+.ql-picker-item[data-value='14px']::before, .ql-picker-label[data-value='14px']::before {
+    content: '14px' !important;
+}
+
+.ql-picker-item[data-value='16px']::before, .ql-picker-label[data-value='16px']::before {
+    content: '16px' !important;
+}
+
+.ql-picker-item[data-value='18px']::before, .ql-picker-label[data-value='18px']::before {
+    content: '18px' !important;
+}
+
+.ql-picker-item[data-value='20px']::before, .ql-picker-label[data-value='20px']::before {
+    content: '20px' !important;
+}
+
+.ql-picker-item[data-value='24px']::before, .ql-picker-label[data-value='24px']::before {
+    content: '24px' !important;
+}
+
+.ql-picker-item[data-value='30px']::before, .ql-picker-label[data-value='30px']::before {
+    content: '30px' !important;
+}
+
+.ql-picker-item[data-value='32px']::before, .ql-picker-label[data-value='32px']::before {
+    content: '32px' !important;
+}
+
+.ql-picker-item[data-value='36px']::before, .ql-picker-label[data-value='36px']::before {
+    content: '36px' !important;
+}
